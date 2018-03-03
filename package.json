@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "content-disposition": "^0.5.2",
-    "serve-static": "^1.13.2"
+    "express": "^4.16.2"
   }
 }
