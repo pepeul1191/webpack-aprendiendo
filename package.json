@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "dev": "node_modules/.bin/webpack",
-    "start:dev": "webpack-dev-server --mode development"
+    "build": "node_modules/.bin/webpack",
+    "dev": "webpack-dev-server --mode development"
   },
   "dependencies": {
     "express": "^4.16.2",

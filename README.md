@@ -8,13 +8,14 @@ Crear 'dist' con Gulp:
 
     $ gulp libs
 
-Arrancar aplicación servidor:
+Arrancar aplicación servidor de front:
 
     $ npm start
 
 Tarea webpack:
 
-    $ npm run dev
+    $ npm run build // para producción
+    $ npm run dev // para desarrollo con hotreload
 
 ---
 
