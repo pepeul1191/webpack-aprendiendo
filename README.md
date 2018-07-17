@@ -10,7 +10,11 @@ Crear 'dist' con Gulp:
 
 Arrancar aplicación servidor:
 
-	 $ npm start
+    $ npm start
+
+Tarea webpack:
+
+    $ npm run dev
 
 ---
 
@@ -20,3 +24,5 @@ Fuentes:
 + https://webpack.js.org/concepts/output/
 + https://webpack.js.org/concepts/entry-points/#single-entry-shorthand-syntax
 + https://github.com/FaztWeb/webpack-course
++ https://github.com/webpack/webpack-dev-server
++ https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1
