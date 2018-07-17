@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node_modules/.bin/webpack"
   },
   "dependencies": {
     "express": "^4.16.2",
@@ -16,5 +17,9 @@
     "gulp-replace": "^0.6.1",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "webpack": "^3.0.0"
   }
 }

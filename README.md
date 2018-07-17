@@ -17,3 +17,6 @@ Arrancar aplicación servidor:
 Fuentes:
 
 + https://github.com/expressjs
++ https://webpack.js.org/concepts/output/
++ https://webpack.js.org/concepts/entry-points/#single-entry-shorthand-syntax
++ https://github.com/FaztWeb/webpack-course
