@@ -1,4 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const path = require('path')
 
 module.exports = {
   plugins: [
@@ -19,6 +20,13 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        }
+      },
+      {
         test: /\.css$/,
         use: [
           {
@@ -33,5 +41,13 @@ module.exports = {
         ]
       }
     ]
+  },
+  devServer: {
+      contentBase: path.join(__dirname, "dist"),
+      compress: true,
+      port: 8083,
+      clientLogLevel: "none",
+      historyApiFallback: true,
+      watchContentBase: true
   }
 }

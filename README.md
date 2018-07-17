@@ -26,3 +26,5 @@ Fuentes:
 + https://github.com/FaztWeb/webpack-course
 + https://github.com/webpack/webpack-dev-server
 + https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1
++ https://www.youtube.com/watch?v=8abt7kqHWoA&t=2s
++ https://www.valentinog.com/blog/webpack-tutorial/
